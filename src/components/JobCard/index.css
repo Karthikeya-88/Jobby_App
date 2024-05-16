@@ -1,0 +1,91 @@
+* {
+  font-family: 'Roboto';
+  text-decoration: none;
+  font-size: 14px;
+}
+.jobsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: #272727;
+  margin-top: 28px;
+  margin-left: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+  background-size: cover;
+  color: #ffffff;
+  font-size: small;
+}
+.jobsCompanyLogo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.jobLogo {
+  width: 100px;
+  height: 80px;
+  padding-left: 8px;
+}
+.jobTitle {
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.jobRating {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+.icon {
+  color: yellow;
+}
+.rating {
+  padding-left: 10px;
+}
+.jobLocEmpPackage {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  padding-right: 14px;
+}
+.locationIcon {
+  color: #ffffff;
+  padding-right: 4px;
+}
+.employment {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+.employmentIcon {
+  color: #ffffff;
+  background-color: #ffffff;
+  padding-right: 20px;
+}
+.jobLoc {
+  padding-right: 4px;
+}
+.jobEmp {
+  padding-left: 4px;
+  align-self: stretch;
+}
+.jobPackage {
+  padding-left: 4px;
+}
+.jobDescriptionHead {
+  padding-left: 20px;
+  font-size: medium;
+}
+.package {
+  align-self: stretch;
+  flex-wrap: nowrap;
+}
+.description {
+  font-size: 12px;
+}

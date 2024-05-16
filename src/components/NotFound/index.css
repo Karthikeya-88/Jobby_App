@@ -1,0 +1,14 @@
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.notFoundHead {
+  color: #ffffff;
+}
+.notFoundDes {
+  color: #ffffff;
+}
